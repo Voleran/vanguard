@@ -129,7 +129,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* align-items: stretch; Allow children to take full width */
   padding: .9rem 0;
 }
 
@@ -285,7 +284,7 @@ img {
 .btn-primary {
   background: var(--brand);
   color: #fff;
-  transition: background-color 0.3s ease; /* Smooth transition for background color */
+  transition: background-color 0.3s ease; 
 }
 
 .btn-primary:hover {
@@ -445,7 +444,7 @@ tbody tr:nth-child(2n) {
   justify-content: center;
   align-items: flex-end;
   flex-flow: column;
-  height: 370px; /* Adjust chart height as needed */
+  height: 370px; 
   width: 100%;
   max-width: 600px;
   /* background-color: #007bff; */
@@ -474,7 +473,7 @@ tbody tr:nth-child(2n) {
 }
 
 .bar {
-  width: 40px; /* Adjust bar width as needed */
+  width: 40px; 
   background-color: #333;
   border-radius: 5px 5px 0 0;
   transition: height 0.5s ease-in-out;
@@ -528,7 +527,7 @@ tbody tr:nth-child(2n) {
 /* Default styles for larger screens */
 .form-container {
   display: grid;
-  grid-template-columns: 1fr 2fr; /* Two columns for labels and inputs */
+  grid-template-columns: 1fr 2fr; 
   gap: 15px;
 }
 
@@ -554,7 +553,7 @@ tbody tr:nth-child(2n) {
   padding: .8rem 1rem;
   border-radius: 3px;
   outline: none;
-  /* transition: border-color .15s ease, box-shadow .15s ease; */
+  
 }
 
 .form-field input:focus-visible,
@@ -616,10 +615,10 @@ tbody tr:nth-child(2n) {
 /* Styles for smaller screens (e.g., mobile) */
 @media only screen and (max-width: 799px) {
   .contact-form .form-grid {
-    grid-template-columns: 1fr; /* Stack elements vertically on mobile */
+    grid-template-columns: 1fr; 
   }
   .form-input {
-    width: 100%; /* Make inputs full width */
+    width: 100%; 
   }
 }
 
